@@ -127,10 +127,8 @@ for (let { id, name, img } of pokemons) {
             "name": name,
             "img": img
         }
-        // let pokeObject = "HOLA";
         localStorage.setItem(id, JSON.stringify(pokeObject));
         console.log(localStorage.getItem(id));
-
     })
     pokemon.style.border = "solid black 2px";
     pokemon.style.padding = "10px";
